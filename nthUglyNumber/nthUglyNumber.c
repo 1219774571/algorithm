@@ -14,6 +14,8 @@ int min(int x,int y)
 int
 nthUglyNumber(int n)
 {
+	if (n < 1)
+		return 0;
 	int a,b,c;
 	int u[n];
 	int i;
