@@ -25,7 +25,7 @@ nthUglyNumber(int n)
 	
 	for (i = 1; i < n; i++)
 	{
-		u[i] = min(min(u[a]*2, u[b]*3), u[c]*4); //u[i] = 他们三个中最新的的最小值
+		u[i] = min(min(u[a]*2, u[b]*3), u[c]*5); //u[i] = 他们三个中最新的的最小值
 		//当取得的值是新的丑数的时候，更新对应的索引值
 		if ((u[i] / u[a]) == 2) 
 			a++;
